@@ -1,0 +1,22 @@
+/* Programm to find out the root*/
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a,b,c;
+	float Disc,d,root1,root2;
+	printf("Enter the co-efficeint a,b and c\n");
+	scanf("%d %d %d",&a, &b, &c);
+	Disc=b*b-4*a*c; 
+	if(Disc>0)
+	{
+	printf("roots are real\n");
+}
+	else if(Disc==0){
+	printf("Roots are equal\n");
+}
+	else{
+	printf("roots are imaginary\n");
+}
+	return 0;
+}
